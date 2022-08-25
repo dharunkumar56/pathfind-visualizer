@@ -8,6 +8,10 @@
     background-color: #277BC0;
 }
 
+.finished{
+  background-color: red;
+}
+
 h1{
     color: white;
 }

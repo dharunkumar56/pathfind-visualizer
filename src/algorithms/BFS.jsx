@@ -2,19 +2,18 @@ function getNeighbors(node, grid, rows, cols){
     var x = node.x;
     var y = node.y;
     var result = [];
-    if(x - 1 >= 0 && !grid[x-1][y].isWall){
-        result.push(grid[x-1][y]);
+    if(y - 1 >= 0  && !grid[x][y - 1].isWall){
+        result.push(grid[x][y-1]);
     }
     if(x + 1 < rows  && !grid[x+1][y].isWall){
         result.push(grid[x+1][y]);
     }
-    if(y - 1 >= 0  && !grid[x][y - 1].isWall){
-        result.push(grid[x][y-1]);
-    }
     if(y + 1 < cols  && !grid[x][y + 1].isWall){
         result.push(grid[x][y+1]);
     }
-
+    if(x - 1 >= 0 && !grid[x-1][y].isWall){
+        result.push(grid[x-1][y]);
+    }
     return result;
 }
 
