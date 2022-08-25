@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/pathfind-visualizer/static/js/main.5be0cbcd.js",
+    "index.html": "/pathfind-visualizer/index.html",
+    "main.5be0cbcd.js.map": "/pathfind-visualizer/static/js/main.5be0cbcd.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5be0cbcd.js"
+  ]
+}
