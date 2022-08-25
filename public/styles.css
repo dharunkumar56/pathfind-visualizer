@@ -7,9 +7,40 @@
 #header{
     background-color: #277BC0;
 }
+.new{
+  display: inline-block;
+}
 
 .finished{
+  background-color: green;
+}
+
+.example-start{
+  height: 20px;
+  width: 20px;
+  border: 1px solid lightblue;
+  background-color:green;
+}
+
+.example-end{
+  height: 20px;
+  width: 20px;
+  border: 1px solid lightblue;
   background-color: red;
+}
+
+.example-path{
+  height: 20px;
+  width: 20px;
+  border: 1px solid lightblue;
+  background-color:aquamarine;
+}
+
+.example-wall{
+  height: 20px;
+  width: 20px;
+  border: 1px solid lightblue;
+  background-color: #FF4A4A;
 }
 
 h1{
@@ -39,7 +70,7 @@ h1{
 }
 
 .end{
-    background-color:green;
+    background-color: green;
 }
 
 .path{
@@ -47,7 +78,10 @@ h1{
 }
 
 .visited{
-    background-color: purple;
+  height: 20px;
+  width: 20px;
+  border: 1px solid lightblue;
+  background-color: #277BC0;
 }
 
 .node-visited {

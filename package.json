@@ -1,6 +1,6 @@
 {
   "name": "pathfind-visualizer",
-  "homepage": "http://dharunkumar56.github.io/path-find-visualizer",
+  "homepage": "http://dharunkumar56.github.io/pathfind-visualizer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
